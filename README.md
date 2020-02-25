@@ -18,6 +18,12 @@ NOT TESTED : https://raspberrypi.stackexchange.com/questions/23675/install-raspb
 ```
 git clone https://aur.archlinux.org/proot.git && cd proot
 makepkg -si
+
+git clone https://aur.archlinux.org/glib2-static.git && cd glib2-static
+makepkg -si
+
+git clone https://aur.archlinux.org/pcre-static.git && cd pcre-static
+makepkg -si
 ```
 
 Use the following script :
