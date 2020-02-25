@@ -19,6 +19,7 @@ https://gist.github.com/htruong/7df502fb60268eeee5bca21ef3e436eb
 Make sure to install the required packages :
 ```
 (sudo) pacman -S qemu
+
 git clone https://aur.archlinux.org/glib2-static.git && cd glib2-static
 makepkg -si
 
