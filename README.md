@@ -16,6 +16,8 @@ dtoverlay=i2c-rtc,ds3231
 NOT TESTED : https://raspberrypi.stackexchange.com/questions/23675/install-raspbian-packages-directly-from-ubuntu-with-chroot-to-raspbian-file-syst
 
 ```
+pacman -S qemu
+
 git clone https://aur.archlinux.org/proot.git && cd proot
 makepkg -si
 
