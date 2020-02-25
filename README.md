@@ -36,3 +36,5 @@ git clone https://aur.archlinux.org/qemu-user-static.git && cd qemu-user-static
 makepkg -si
 ```
 
+
+Then uninstall the fake-hwclock software
