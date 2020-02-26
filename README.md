@@ -13,8 +13,7 @@ dtoverlay=i2c-rtc,ds3231
 ```
 
 ## Chroot into Raspbian
-NOT TESTED : https://raspberrypi.stackexchange.com/questions/23675/install-raspbian-packages-directly-from-ubuntu-with-chroot-to-raspbian-file-syst
-https://gist.github.com/mikkeloscar/a85b08881c437795c1b9
+
 
 ```
 pacman -S qemu
@@ -56,3 +55,9 @@ Then uninstall the fake-hwclock software and exit chroot
 umount /mnt/{sys,proc,dev/pts,dev, boot}
 umount /mnt
 
+```
+
+# Source
+https://unix.stackexchange.com/questions/41889/how-can-i-chroot-into-a-filesystem-with-a-different-architechture
+https://raspberrypi.stackexchange.com/questions/23675/install-raspbian-packages-directly-from-ubuntu-with-chroot-to-raspbian-file-syst
+https://gist.github.com/mikkeloscar/a85b08881c437795c1b9
