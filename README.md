@@ -49,8 +49,19 @@ export PATH=/sbin:/usr/sbin:/usr/bin:/bin
 ```
 
 
-Then uninstall the fake-hwclock software and exit chroot
+Then uninstall the fake-hwclock software 
+```
+apt remove fake-hwclock
+```
 
+
+
+Then exit chroot
+```
+exit
+```
+
+Unmount devices
 ```
 umount /mnt/{sys,proc,dev/pts,dev, boot}
 umount /mnt
